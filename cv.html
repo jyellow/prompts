@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XXX的个人社交名片</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex justify-center items-center min-h-screen p-4">
+    <div class="bg-white rounded-xl shadow-2xl max-w-md w-full">
+        <!-- 头部信息 -->
+        <div class="relative p-6 text-center">
+            <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1">
+                <div class="w-full h-full rounded-full bg-white flex items-center justify-center">
+                    <span class="text-4xl font-bold text-blue-500">X</span>
+                </div>
+            </div>
+            <h1 class="text-2xl font-bold mb-1">XXX</h1>
+            <p class="text-gray-600 mb-2">深圳</p>
+            <div class="flex flex-wrap justify-center gap-2">
+                <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">互联网技术专家</span>
+                <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">前端开发高级工程师</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">技术讲师</span>
+            </div>
+        </div>
+
+        <!-- 近期关键投入 -->
+        <div class="px-6 py-4 bg-blue-50 rounded-xl mx-4 mb-6">
+            <div class="flex items-center mb-2">
+                <i data-lucide="target" class="w-5 h-5 text-blue-500 mr-2"></i>
+                <h2 class="text-lg font-semibold">近期关键投入</h2>
+            </div>
+            <p class="text-gray-700">在腾讯研究院担任前台开发高级工程师，专注于大型互联网应用开发和技术创新</p>
+        </div>
+
+        <!-- 履历亮点 -->
+        <div class="px-6 py-4">
+            <div class="flex items-center mb-3">
+                <i data-lucide="award" class="w-5 h-5 text-blue-500 mr-2"></i>
+                <h2 class="text-lg font-semibold">履历亮点</h2>
+            </div>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>腾讯创新大赛特等奖获得者</li>
+                <li>参与开发SilverlightQQ，并在美国微软MIX大会展示</li>
+                <li>独立开发腾讯体育直播系统，日PV达6000万</li>
+            </ul>
+        </div>
+
+        <!-- 擅长领域 -->
+        <div class="px-6 py-4">
+            <div class="flex items-center mb-3">
+                <i data-lucide="layers" class="w-5 h-5 text-blue-500 mr-2"></i>
+                <h2 class="text-lg font-semibold">擅长领域</h2>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-blue-100 p-3 rounded-lg">
+                    <h3 class="font-semibold mb-1">前端开发</h3>
+                    <p class="text-sm text-gray-600">精通多种前端技术和框架</p>
+                </div>
+                <div class="bg-green-100 p-3 rounded-lg">
+                    <h3 class="font-semibold mb-1">全栈开发</h3>
+                    <p class="text-sm text-gray-600">从前端到后端的全面开发能力</p>
+                </div>
+                <div class="bg-purple-100 p-3 rounded-lg">
+                    <h3 class="font-semibold mb-1">技术管理</h3>
+                    <p class="text-sm text-gray-600">团队建设和项目管理经验丰富</p>
+                </div>
+                <div class="bg-orange-100 p-3 rounded-lg">
+                    <h3 class="font-semibold mb-1">技术创新</h3>
+                    <p class="text-sm text-gray-600">善于技术创新和解决复杂问题</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 兴趣爱好 -->
+        <div class="px-6 py-4">
+            <div class="flex items-center mb-3">
+                <i data-lucide="heart" class="w-5 h-5 text-blue-500 mr-2"></i>
+                <h2 class="text-lg font-semibold">兴趣爱好</h2>
+            </div>
+            <p class="text-gray-700">
+                ♟️ 下棋 | 📚 读书 | 🎨 绘画 | 💻 编程
+            </p>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="px-6 py-4 bg-gray-50 rounded-b-xl flex justify-between items-center">
+            <p class="text-sm text-gray-600 italic">"诚恳求知，笃行创新"</p>
+            <div class="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center">
+                <span class="text-gray-400 text-xs">二维码</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
