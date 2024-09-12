@@ -1,0 +1,56 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'SimKai';
+        src: local('SimKai'), local('KaiTi');
+      }
+      text {
+        font-family: 'SimKai', serif;
+      }
+    </style>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  <rect x="20" y="20" width="360" height="560" fill="#ffffff" rx="10"/>
+  
+  <!-- 蒙德里安风格背景 -->
+  <rect x="20" y="20" width="180" height="280" fill="#ff0000" opacity="0.1"/>
+  <rect x="200" y="300" width="180" height="280" fill="#0000ff" opacity="0.1"/>
+  <rect x="200" y="20" width="180" height="280" fill="#ffff00" opacity="0.1"/>
+  
+  <!-- 随机几何图案 -->
+  <circle cx="30" cy="30" r="5" fill="#ff4136"/>
+  <rect x="350" y="550" width="10" height="10" fill="#0074d9"/>
+  <polygon points="200,10 210,30 190,30" fill="#ffdc00"/>
+  
+  <!-- 标题 -->
+  <text x="200" y="60" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">汉语新解</text>
+  
+  <!-- 分隔线 -->
+  <line x1="40" y1="80" x2="360" y2="80" stroke="#333" stroke-width="1"/>
+  
+  <!-- 用户输入 -->
+  <text x="50" y="120" font-size="18" fill="#333">加油努力</text>
+  <text x="50" y="150" font-family="Arial, sans-serif" font-size="14" fill="#666">Cheer up and work hard</text>
+  <text x="50" y="180" font-size="14" fill="#666">頑張れ</text>
+  
+  <!-- 解释 -->
+  <text x="50" y="220" font-size="16" fill="#555">
+    <tspan x="50" dy="0">一种温柔的谎言，</tspan>
+    <tspan x="50" dy="25">用来掩饰社会的残酷，</tspan>
+    <tspan x="50" dy="25">和个人的无能。</tspan>
+  </text>
+  
+  <!-- 线条图 -->
+  <path d="M100 350 Q200 300 300 400" stroke="#333" fill="none" stroke-width="2"/>
+  <text x="200" y="460" font-size="14" text-anchor="middle" fill="#666">努力程度</text>
+  <path d="M100 350 Q200 450 300 400" stroke="#f00" fill="none" stroke-width="2"/>
+  <text x="200" y="330" font-size="14" text-anchor="middle" fill="#666">实际收益</text>
+  
+  <!-- 极简总结 -->
+  <text x="200" y="520" font-size="18" text-anchor="middle" font-weight="bold" fill="#333">
+    加油努力：自欺欺人的安慰剂
+  </text>
+</svg>
