@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap')
+    </style>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="600" fill="#f0e6d2"/>
+  
+  <!-- 装饰图案 -->
+  <path d="M0,0 Q200,100 400,0 Q200,300 0,600 Q200,500 400,600" fill="none" stroke="#d4c5a8" stroke-width="2"/>
+  
+  <!-- 标题 -->
+  <text x="200" y="60" font-family="'Noto Serif SC', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#4a4a4a">汉语新解</text>
+  
+  <!-- 分隔线 -->
+  <line x1="40" y1="80" x2="360" y2="80" stroke="#4a4a4a" stroke-width="1"/>
+  
+  <!-- 词语 -->
+  <text x="200" y="120" font-family="'Noto Serif SC', serif" font-size="24" text-anchor="middle" fill="#4a4a4a">努力工作</text>
+  <text x="200" y="150" font-family="'Noto Serif SC', serif" font-size="16" text-anchor="middle" fill="#4a4a4a">Hard Work</text>
+  <text x="200" y="180" font-family="'Noto Serif SC', serif" font-size="16" text-anchor="middle" fill="#4a4a4a">一生懸命に働く</text>
+  
+  <!-- 解释 -->
+  <text x="40" y="240" font-family="'Noto Serif SC', serif" font-size="16" fill="#4a4a4a">
+    <tspan x="40" dy="0">现代社会的自欺欺人。用无尽的加班来麻痹自己,</tspan>
+    <tspan x="40" dy="24">仿佛这样就能在资本主义的游戏中胜出。殊不知,</tspan>
+    <tspan x="40" dy="24">你不过是hamster wheel上的一只仓鼠,跑得越快,</tspan>
+    <tspan x="40" dy="24">离自由越远。</tspan>
+  </text>
+  
+  <!-- 线条图 -->
+  <circle cx="200" cy="400" r="80" fill="none" stroke="#4a4a4a" stroke-width="2"/>
+  <path d="M200,320 L200,480 M120,400 L280,400" stroke="#4a4a4a" stroke-width="2"/>
+  <path d="M200,400 L260,360" stroke="#4a4a4a" stroke-width="2"/>
+  <circle cx="200" cy="400" r="5" fill="#4a4a4a"/>
+  
+  <!-- 总结 -->
+  <text x="200" y="540" font-family="'Noto Serif SC', serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#4a4a4a">资本主义的陷阱</text>
+</svg>
