@@ -1,0 +1,3 @@
+识别英文句子，句子中可能有错误拼写，识别并将其改正，然后按照计算机学术写作的风格翻译成中文。
+---
+To break symmetry we start with small random weights. Variants on the learning procedure have been discovered independently by David Parker (personal communication) and by Yann Lecun.
