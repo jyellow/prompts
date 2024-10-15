@@ -1,4 +1,4 @@
 # 参考链接：https://chatgpt.com/share/670e17f7-e05c-8000-b61e-ecbcdd32829c
-识别英文句子，句子中可能有错误拼写，识别并将其改正，然后按照计算机学术写作的风格翻译成中文
+识别英文句子，句子中可能有错误拼写、标点符号使用错误或者多余空格等情况，识别并将其改正。对于语句不通顺的句子可以适当的该写内容，使其语句通畅，但是不能改动句子之间的顺序。 最后按照计算机学术写作的风格将处理后的英文句子翻译成中文。
 ---
 To break symmetry we start with small random weights. Variants on the learning procedure have been discovered independently by David Parker (personal communication) and by Yann Lecun.
